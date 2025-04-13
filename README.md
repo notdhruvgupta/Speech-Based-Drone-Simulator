@@ -1,71 +1,37 @@
-# Getting Started with Create React App
+# 🗣️ Speech-Based Drone Simulator 🚁
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based interactive simulator that demonstrates speech-controlled autonomous drone navigation. This project showcases the integration of voice recognition, 3D drone visualization, and simulated flight paths—allowing users to control a virtual drone using natural voice commands.
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- 🎙️ Voice-controlled drone commands (e.g., "take off", "move forward", "land")
+- 🌐 3D environment using Three.js
+- 🔊 Real-time speech recognition with Web Speech API
+- 🧭 Simulated drone flight path visualization
+- 📱 Responsive UI for both desktop and mobile
 
-### `npm start`
+## 🛠️ Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Three.js** – 3D graphics rendering
+- **Web Speech API** – Voice command recognition
+- **JavaScript / HTML / CSS** – Core web technologies
+- **Tailwind CSS** – Utility-first styling framework
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/Speech-Based-Drone-Simulator.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Open `index.html` in your browser (no server setup required).
 
-### `npm run build`
+## 🎯 Use Cases
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Educational demonstration of speech and drone tech
+- Voice interface prototyping for UAVs
+- Web-based simulation platform
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📄 License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Speech-Based-Drone-Simulator" 
+This project is licensed under the MIT License.
