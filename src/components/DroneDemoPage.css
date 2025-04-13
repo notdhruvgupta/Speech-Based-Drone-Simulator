@@ -1,0 +1,38 @@
+.drone-demo-container {
+    display: flex;
+    flex-direction: column; /* Stack controls above canvas on small screens */
+    height: calc(100vh - 150px); /* Adjust based on header/footer height */
+    padding: 10px;
+    gap: 15px;
+  }
+  
+  .controls-panel {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    min-height: 180px; /* Ensure enough space for controls */
+  }
+  
+  .scene-panel {
+    flex-grow: 1; /* Canvas takes remaining space */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure canvas fits */
+    min-height: 300px; /* Minimum height for the canvas */
+  }
+  
+  /* Responsive layout for wider screens */
+  @media (min-width: 768px) {
+    .drone-demo-container {
+      flex-direction: row; /* Side-by-side layout */
+    }
+    .controls-panel {
+      flex-basis: 300px; /* Fixed width for controls */
+      flex-shrink: 0;
+       min-height: auto; /* Reset min-height */
+    }
+    .scene-panel {
+       min-height: auto; /* Reset min-height */
+    }
+  }
